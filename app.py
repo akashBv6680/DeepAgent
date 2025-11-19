@@ -51,7 +51,7 @@ if "results" not in st.session_state:
 if "subtask_busy" not in st.session_state:
     st.session_state["subtask_busy"] = False
 
-st.title("Deep Agent (Gemini Flash 2.5 Free) — Reliable Planner & Executor")
+st.title("Deep Agent — Reliable Planner & Executor")
 
 user_task = st.text_area("Describe your complex task or project:")
 
